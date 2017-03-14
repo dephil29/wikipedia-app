@@ -27,7 +27,7 @@ $(document).ready(function() {
 
     function articleMaker(title, snippet) {
         var article = '';
-        article += '<a class="article" target="_blank" href="https://en.wikipedia.org/wiki/' + title +'">';
+        article += '<a class="article" target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/' + title +'">';
         article +=      '<h3>' + title + '</h3>';
         article +=      '<p>' + snippet + '</p>';
         article += '</a>';
