@@ -52,25 +52,13 @@ button {
     border-radius: 5px;
 }
 
-.nonsense {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30em;
-    text-align: center;
-    min-height: 100vh;
-    background-image: url('./recursive-barry.png');
-    background-size: cover;
-    background-position: center;
-}
-
 .article {
     border-radius: 5px;
     display: block;
     background-color: rgb(204, 210, 190);
     margin-left: auto;
     margin-right: auto;
-    width: 30em;
+    max-width: 30em;
     flex-wrap: wrap;
     padding-left: 5px;
     padding-right: 5px;
